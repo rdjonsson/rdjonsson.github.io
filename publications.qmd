@@ -1,0 +1,49 @@
+---
+title: "Publications"
+toc: true
+bibliography: bibliography_me.bib
+format:
+  html:
+    code-fold: true
+---
+
+## Peer reviewed
+
+C. Liu et al., "Appraisal of cycling infrastructure investments using a transport model with focus on cycling," Case Studies on Transport Policy, vol. 9, no. 1, s. 125-136, 2021.
+
+C. Liu et al., "Development of a large-scale transport model with focus on cycling," Transportation Research Part A : Policy and Practice, vol. 134, s. 164-183, 2020.
+
+M. Adolphson och D. Jonsson, "Uncover the theory practice gap in Swedish transport planning : an interdisciplinary approach," European Planning Studies, 2020.
+
+O. Blom Västberg, A. Karlström, R.D. Jonsson, M. Sundberg., "A dynamic discrete choice activity-based travel demand model," Transportation Science vol 54, issue 1, 2019.
+
+M. Börjesson, R. D. Jonsson and M. Lundberg, "An ex-post CBA for the Stockholm Metro," Transportation Research Part A : Policy and Practice, vol. 70, pp. 135-148, 2014. 
+
+M. Börjesson et al., "Land-use impacts in transport appraisal," Research in Transportation Economics, vol. 47, pp. 82-91, 2014. 
+
+R. D. Jonsson et al., "Reconciling user benefit and time-geography-based individual accessibility measures," Environment and Planning, B : Planning and Design, vol. 41, no. 6, pp. 1031-1043, 2014. 
+
+U. Mörtberg et al., "Urban ecosystems and sustainable urban development-analysing and assessing interacting systems in the Stockholm region," Urban Ecosystems, vol. 16, no. 4, pp. 763-782, 2013. 
+
+M. Börjesson, R.D. Jonsson and M. Lundberg, "Samhällsekonomin på spåret – en ESO-rapport om att räkna på tunnelbanan," Expertgruppen för studier i offentlig ekonomi, 2012:5, 2012. 
+
+R. D. Jonsson et al., "The Usefulness of Transport Models in Swedish Planning Practice," Transport reviews, vol. 31, no. 2, pp. 251-265, 2011. 
+
+R. D. Jonsson, "Analysing sustainability in a land-use and transport system," Journal of Transport Geography, vol. 16, no. 1, pp. 28-41, 2008. 
+
+M. Robèrt and R. D. Jonsson, "Assessment of transport policies toward future emission targets : A backcasting approach for Stockholm 2030," Journal of Environmental Assessment Policy and Management, vol. 8, no. 4, pp. 451-478, 2006. 
+ 
+
+## Other publications
+
+O. Fröidh et al., "Lokalisering av järnvägsstationer – effekter för samhällsplanering, resande och tillgänglighet," Kungliga Tekniska högskolan, TRITA-ABE-RPT, 1815, 2018.
+
+M. Adolphson, D. Jonsson and J. Westin, "Regionala Systemanalyser," Stockholm : KTH Royal Institute of Technology, 2017
+
+A. Almroth et al., "Further development of SAMPERS and modeling of urban congestion," Working papers in Transport Economics, No 2014:10, 2014. 
+
+Blom Västberg, O., A. Karlström, M. Sundberg and R.D. Jonsson, “Within and Between Days Activity Scheduling by Infinite Trip Chaining”, Transport Research Board, Washington, USA, Transport Research Board, 2014
+
+R. D. Jonsson 2008. “Analysing Sustainable Urban Transport and Land-Use : Modelling Tools and Appraisal Frameworks.” PhD Thesis, KTH, Transport and Location Analysis.
+
+R. D. Jonsson, and O. Kollberg, “Attitude Control of a Nanosatellite Using Reinforcement Learning Neural Networks.” Master's Thesis, Uppsala University. 1999

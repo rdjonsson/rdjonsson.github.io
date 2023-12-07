@@ -3,15 +3,22 @@ project:
   output-dir: docs
 
 website:
-  title: "today"
+  title: "R. Daniel Jonsson"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: cv.qmd
+        text: CV
+      - href: writings.qmd
+        text: Writings
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
 
 format:
   html:
-    theme: cosmo
+    theme: sandstone
     css: styles.css
     toc: true

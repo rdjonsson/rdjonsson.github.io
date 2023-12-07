@@ -4,6 +4,111 @@
     "href": "hello.html",
     "title": "Quarto Basics",
     "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R. Daniel Jonsson",
+    "section": "",
+    "text": "Various writings on transport systems analysis and loosely related topics."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "R. Daniel Jonsson",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "index.html#selected-publications",
+    "href": "index.html#selected-publications",
+    "title": "R. Daniel Jonsson",
+    "section": "Selected publications",
+    "text": "Selected publications"
+  },
+  {
+    "objectID": "index.html#selected-projects",
+    "href": "index.html#selected-projects",
+    "title": "R. Daniel Jonsson",
+    "section": "Selected projects",
+    "text": "Selected projects\n\n\n\n\n\n\n\n2000 – 2003\nPROSPECTS: Procedures for Recommending Optimal Sustainable Planning of European City Transport Systems, EU 5th framework project in cooperation with: Institute of Transport Studies, Leeds; Institute for Transport Economics, Oslo; Institute for Traffic Planning & Traffic Engineering, Vienna; VTT Building and Transport, Helsinki; Universidad Politechnica de Madrid.\n\n\n2004 – 2005\nDevelopment of activity based models for the Stockholm Region. Vinnova.\n\n\n2004 – 2008\nModelling and analysis of a sustainable land use and transport system. Vinnova, Vägverket.\n\n\n2007 – 2010\nAssessment of long term effects of economic policy instruments on the transport system. Vinnova, Vägverket.\n\n\n2009 – 2011\nEfficient transport models. In cooperation with WSP. Vägverket.\n\n\n2010\nModelling congesting charging in Stockholm. Vinnova.\n\n\n2010 – 2012\nFörutsättningarnas betydelse för den relativa samhällsekonomiska lönsamheten av investeringar. Vinnova.\n\n\n2010 – 2012\nThe long-term social benefits of public transport. Vinnova.\n\n\n2011 – 2016\nPost Car(d) Urbanism - Scenarios and visualizations of transformed urban landscapes. Formas.\n\n\n2012 – 2014\nEnergieffektivisering, transportpolitik och regionförstoring. Energimyndigheten.\n\n\n2012 – 2016\nRegionala systemanalyser. Trafikverket.\n\n\n2014 – 2016\nEstimation and development of a new national transport model system for Sweden. Trafikverket\n\n\n2014 – 2016\nSystems effects of autonomous vehicles. Energimyndigheten\n\n\n2017 – 2020\nMISTRA SAMS\n\n\n2022 – 2023\nScenario planning with synthetic populations. Region Stockholm."
+  },
+  {
+    "objectID": "index.html#employment",
+    "href": "index.html#employment",
+    "title": "R. Daniel Jonsson",
+    "section": "Employment",
+    "text": "Employment\n\n\n\n\n\n\n\n2009 – present\nResearcher, School of Architecture and the Built Environment, KTH Royal Institute of Technology, Stockholm.\n\n\n2016-09 – 2017-07\nParental leave\n\n\n2018-11 – 2019-04\nParental leave"
+  },
+  {
+    "objectID": "index.html#degrees",
+    "href": "index.html#degrees",
+    "title": "R. Daniel Jonsson",
+    "section": "Degrees",
+    "text": "Degrees\n\n\n\n\n\n\n\n2001\nM.Sc. Engineering Physics, specialised in Scientific Computing, Uppsala University.\n\n\n2004\nLicentiate of Engineering, Infrastructure, KTH Royal Institute of Technology, Stockholm\n\n\n2009\nPh.D. in Infrastructure, KTH Royal Institute of Technology, Stockholm."
+  },
+  {
+    "objectID": "index.html#current-activity",
+    "href": "index.html#current-activity",
+    "title": "R. Daniel Jonsson",
+    "section": "Current activity",
+    "text": "Current activity\nI am a research scientist at the division of Systems Analysis and Economics, department of Urban Planning and Environment, KTH Royal Institute of Technology, Stockholm.\nSince 2018 – KTH Partner director for the Strategic Partnership between KTH and Region Stockholm regarding transport and regional planning.\nSince 2022 – KTH Partner contact EIT Urban Mobility, an initiative of the European Institute of Innovation and Technology (EIT).\nIf there was such a field as Complexity Regional Science I would probably be working in it."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "2009 – present\nResearcher, School of Architecture and the Built Environment, KTH Royal Institute of Technology, Stockholm.\n\n\n2016-09 – 2017-07\nParental leave\n\n\n2018-11 – 2019-04\nParental leave\n\n\n\n\n\n\n\n\n\n\n\n\n\n2001\nM.Sc. Engineering Physics, specialised in Scientific Computing, Uppsala University.\n\n\n2004\nLicentiate of Engineering, Infrastructure, KTH Royal Institute of Technology, Stockholm\n\n\n2009\nPh.D. in Infrastructure, KTH Royal Institute of Technology, Stockholm.\n\n\n\n\n\n\n\n\n\n\n\n\n\n2001–2005\nOptimisation Models in Transport and Location Analysis, Dept. of Transport and Economics, KTH, Stockholm\n\n\n2002–2007\nTraffic Forecasting, Dept. of Transport and Economics, KTH\n\n\n2007–2009\nTransport Modelling, Dept. of Transport and Economics, KTH\n\n\n2007–2008\nAdvanced Transport Modelling, Dept. of Transport and Economics, KTH\n\n\n2008-2009\nTransport and Society, Dept. of Transport and Economics, KTH\n\n\n2008\nTransport Policy and Evaluation, Dept. of Transport and Economics, KTH\n\n\n2009–2014\nGIS in transport analysis, Dept. of Transport and Economics, KTH\n\n\n2013–2015\nUrban Modelling and Decision Support, KTH\n\n\n2016–\nStads- och trafikplanering, KTH\n\n\n2016–\nTransporter och Samhälle, KTH\n\n\n\n\n\n\n\n\n\n\n\n\n\n2000–2003\nPROSPECTS: Procedures for Recommending Optimal Sustainable Planning of European City Transport Systems, EU 5th framework project in cooperation with: Institute of Transport Studies, Leeds; Institute for Transport Economics, Oslo; Institute for Traffic Planning & Traffic Engineering, Vienna; VTT Building and Transport, Helsinki; Universidad Politechnica de Madrid.\n\n\n2004–2005\nDevelopment of activity based models for the Stockholm Region. Vinnova.\n\n\n2004–2008\nModelling and analysis of a sustainable land use and transport system. Vinnova, Vägverket.\n\n\n2007–2010\nAssessment of long term effects of economic policy instruments on the transport system. Vinnova, Vägverket.\n\n\n2009–2011\nEfficient transport models. In cooperation with WSP. Vägverket.\n\n\n2010\nModelling congesting charging in Stockholm. Vinnova.\n\n\n2010–2012\nFörutsättningarnas betydelse för den relativa samhällsekonomiska lönsamheten av investeringar. Vinnova.\n\n\n2010–2012\nThe long-term social benefits of public transport. Vinnova.\n\n\n2011–2016\nPost Car(d) Urbanism - Scenarios and visualizations of transformed urban landscapes. Formas.\n\n\n2012–2014\nEnergieffektivisering, transportpolitik och regionförstoring. Energimyndigheten.\n\n\n2012–2016\nRegionala systemanalyser. Trafikverket.\n\n\n2014–2016\nEstimation and development of a new national transport model system for Sweden. Trafikverket\n\n\n2014–2016\nSystems effects of autonomous vehicles. Energimyndigheten\n\n\n2017–2020\nMISTRA SAMS\n\n\n2022–2023\nScenario planning with synthetic populations. Region Stockholm."
+  },
+  {
+    "objectID": "cv.html#employment",
+    "href": "cv.html#employment",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "2009 – present\nResearcher, School of Architecture and the Built Environment, KTH Royal Institute of Technology, Stockholm.\n\n\n2016-09 – 2017-07\nParental leave\n\n\n2018-11 – 2019-04\nParental leave"
+  },
+  {
+    "objectID": "cv.html#degrees",
+    "href": "cv.html#degrees",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "2001\nM.Sc. Engineering Physics, specialised in Scientific Computing, Uppsala University.\n\n\n2004\nLicentiate of Engineering, Infrastructure, KTH Royal Institute of Technology, Stockholm\n\n\n2009\nPh.D. in Infrastructure, KTH Royal Institute of Technology, Stockholm."
+  },
+  {
+    "objectID": "cv.html#selected-projects",
+    "href": "cv.html#selected-projects",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "2000–2003\nPROSPECTS: Procedures for Recommending Optimal Sustainable Planning of European City Transport Systems, EU 5th framework project in cooperation with: Institute of Transport Studies, Leeds; Institute for Transport Economics, Oslo; Institute for Traffic Planning & Traffic Engineering, Vienna; VTT Building and Transport, Helsinki; Universidad Politechnica de Madrid.\n\n\n2004–2005\nDevelopment of activity based models for the Stockholm Region. Vinnova.\n\n\n2004–2008\nModelling and analysis of a sustainable land use and transport system. Vinnova, Vägverket.\n\n\n2007–2010\nAssessment of long term effects of economic policy instruments on the transport system. Vinnova, Vägverket.\n\n\n2009–2011\nEfficient transport models. In cooperation with WSP. Vägverket.\n\n\n2010\nModelling congesting charging in Stockholm. Vinnova.\n\n\n2010–2012\nFörutsättningarnas betydelse för den relativa samhällsekonomiska lönsamheten av investeringar. Vinnova.\n\n\n2010–2012\nThe long-term social benefits of public transport. Vinnova.\n\n\n2011–2016\nPost Car(d) Urbanism - Scenarios and visualizations of transformed urban landscapes. Formas.\n\n\n2012–2014\nEnergieffektivisering, transportpolitik och regionförstoring. Energimyndigheten.\n\n\n2012–2016\nRegionala systemanalyser. Trafikverket.\n\n\n2014–2016\nEstimation and development of a new national transport model system for Sweden. Trafikverket\n\n\n2014–2016\nSystems effects of autonomous vehicles. Energimyndigheten\n\n\n2017–2020\nMISTRA SAMS\n\n\n2022–2023\nScenario planning with synthetic populations. Region Stockholm."
+  },
+  {
+    "objectID": "cv.html#teaching-experience",
+    "href": "cv.html#teaching-experience",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "2001–2005\nOptimisation Models in Transport and Location Analysis, Dept. of Transport and Economics, KTH, Stockholm\n\n\n2002–2007\nTraffic Forecasting, Dept. of Transport and Economics, KTH\n\n\n2007–2009\nTransport Modelling, Dept. of Transport and Economics, KTH\n\n\n2007–2008\nAdvanced Transport Modelling, Dept. of Transport and Economics, KTH\n\n\n2008-2009\nTransport and Society, Dept. of Transport and Economics, KTH\n\n\n2008\nTransport Policy and Evaluation, Dept. of Transport and Economics, KTH\n\n\n2009–2014\nGIS in transport analysis, Dept. of Transport and Economics, KTH\n\n\n2013–2015\nUrban Modelling and Decision Support, KTH\n\n\n2016–\nStads- och trafikplanering, KTH\n\n\n2016–\nTransporter och Samhälle, KTH"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "C. Liu et al., “Appraisal of cycling infrastructure investments using a transport model with focus on cycling,” Case Studies on Transport Policy, vol. 9, no. 1, s. 125-136, 2021.\nC. Liu et al., “Development of a large-scale transport model with focus on cycling,” Transportation Research Part A : Policy and Practice, vol. 134, s. 164-183, 2020.\nM. Adolphson och D. Jonsson, “Uncover the theory practice gap in Swedish transport planning : an interdisciplinary approach,” European Planning Studies, 2020.\nO. Blom Västberg, A. Karlström, R.D. Jonsson, M. Sundberg., “A dynamic discrete choice activity-based travel demand model,” Transportation Science vol 54, issue 1, 2019.\nM. Börjesson, R. D. Jonsson and M. Lundberg, “An ex-post CBA for the Stockholm Metro,” Transportation Research Part A : Policy and Practice, vol. 70, pp. 135-148, 2014.\nM. Börjesson et al., “Land-use impacts in transport appraisal,” Research in Transportation Economics, vol. 47, pp. 82-91, 2014.\nR. D. Jonsson et al., “Reconciling user benefit and time-geography-based individual accessibility measures,” Environment and Planning, B : Planning and Design, vol. 41, no. 6, pp. 1031-1043, 2014.\nU. Mörtberg et al., “Urban ecosystems and sustainable urban development-analysing and assessing interacting systems in the Stockholm region,” Urban Ecosystems, vol. 16, no. 4, pp. 763-782, 2013.\nM. Börjesson, R.D. Jonsson and M. Lundberg, “Samhällsekonomin på spåret – en ESO-rapport om att räkna på tunnelbanan,” Expertgruppen för studier i offentlig ekonomi, 2012:5, 2012.\nR. D. Jonsson et al., “The Usefulness of Transport Models in Swedish Planning Practice,” Transport reviews, vol. 31, no. 2, pp. 251-265, 2011.\nR. D. Jonsson, “Analysing sustainability in a land-use and transport system,” Journal of Transport Geography, vol. 16, no. 1, pp. 28-41, 2008.\nM. Robèrt and R. D. Jonsson, “Assessment of transport policies toward future emission targets : A backcasting approach for Stockholm 2030,” Journal of Environmental Assessment Policy and Management, vol. 8, no. 4, pp. 451-478, 2006."
+  },
+  {
+    "objectID": "publications.html#peer-reviewed",
+    "href": "publications.html#peer-reviewed",
+    "title": "Publications",
+    "section": "",
+    "text": "C. Liu et al., “Appraisal of cycling infrastructure investments using a transport model with focus on cycling,” Case Studies on Transport Policy, vol. 9, no. 1, s. 125-136, 2021.\nC. Liu et al., “Development of a large-scale transport model with focus on cycling,” Transportation Research Part A : Policy and Practice, vol. 134, s. 164-183, 2020.\nM. Adolphson och D. Jonsson, “Uncover the theory practice gap in Swedish transport planning : an interdisciplinary approach,” European Planning Studies, 2020.\nO. Blom Västberg, A. Karlström, R.D. Jonsson, M. Sundberg., “A dynamic discrete choice activity-based travel demand model,” Transportation Science vol 54, issue 1, 2019.\nM. Börjesson, R. D. Jonsson and M. Lundberg, “An ex-post CBA for the Stockholm Metro,” Transportation Research Part A : Policy and Practice, vol. 70, pp. 135-148, 2014.\nM. Börjesson et al., “Land-use impacts in transport appraisal,” Research in Transportation Economics, vol. 47, pp. 82-91, 2014.\nR. D. Jonsson et al., “Reconciling user benefit and time-geography-based individual accessibility measures,” Environment and Planning, B : Planning and Design, vol. 41, no. 6, pp. 1031-1043, 2014.\nU. Mörtberg et al., “Urban ecosystems and sustainable urban development-analysing and assessing interacting systems in the Stockholm region,” Urban Ecosystems, vol. 16, no. 4, pp. 763-782, 2013.\nM. Börjesson, R.D. Jonsson and M. Lundberg, “Samhällsekonomin på spåret – en ESO-rapport om att räkna på tunnelbanan,” Expertgruppen för studier i offentlig ekonomi, 2012:5, 2012.\nR. D. Jonsson et al., “The Usefulness of Transport Models in Swedish Planning Practice,” Transport reviews, vol. 31, no. 2, pp. 251-265, 2011.\nR. D. Jonsson, “Analysing sustainability in a land-use and transport system,” Journal of Transport Geography, vol. 16, no. 1, pp. 28-41, 2008.\nM. Robèrt and R. D. Jonsson, “Assessment of transport policies toward future emission targets : A backcasting approach for Stockholm 2030,” Journal of Environmental Assessment Policy and Management, vol. 8, no. 4, pp. 451-478, 2006."
+  },
+  {
+    "objectID": "publications.html#other-publications",
+    "href": "publications.html#other-publications",
+    "title": "Publications",
+    "section": "Other publications",
+    "text": "Other publications\nO. Fröidh et al., “Lokalisering av järnvägsstationer – effekter för samhällsplanering, resande och tillgänglighet,” Kungliga Tekniska högskolan, TRITA-ABE-RPT, 1815, 2018.\nM. Adolphson, D. Jonsson and J. Westin, “Regionala Systemanalyser,” Stockholm : KTH Royal Institute of Technology, 2017\nA. Almroth et al., “Further development of SAMPERS and modeling of urban congestion,” Working papers in Transport Economics, No 2014:10, 2014.\nBlom Västberg, O., A. Karlström, M. Sundberg and R.D. Jonsson, “Within and Between Days Activity Scheduling by Infinite Trip Chaining”, Transport Research Board, Washington, USA, Transport Research Board, 2014\nR. D. Jonsson 2008. “Analysing Sustainable Urban Transport and Land-Use : Modelling Tools and Appraisal Frameworks.” PhD Thesis, KTH, Transport and Location Analysis.\nR. D. Jonsson, and O. Kollberg, “Attitude Control of a Nanosatellite Using Reinforcement Learning Neural Networks.” Master’s Thesis, Uppsala University. 1999"
   }
 ]

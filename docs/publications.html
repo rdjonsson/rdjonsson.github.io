@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>R. Daniel Jonsson - Quarto Basics</title>
+<title>R. Daniel Jonsson - Publications</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -126,20 +92,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./writings.qmd"> 
 <span class="menu-text">Writings</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.qmd"> 
+    <a class="nav-link active" href="./publications.html" aria-current="page"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./teaching.qmd"> 
 <span class="menu-text">Teaching</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./hello.html" aria-current="page"> 
-<span class="menu-text">Quarto Basics</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -153,14 +119,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#peer-reviewed" id="toc-peer-reviewed" class="nav-link active" data-scroll-target="#peer-reviewed">Peer reviewed</a></li>
+  <li><a href="#other-publications" id="toc-other-publications" class="nav-link" data-scroll-target="#other-publications">Other publications</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Quarto Basics</h1>
+<h1 class="title">Publications</h1>
 </div>
 
 
@@ -177,38 +150,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>For a demonstration of a line plot on a polar axis, see <a href="#fig-polar" class="quarto-xref">Figure&nbsp;1</a>.</p>
-<div id="cell-fig-polar" class="cell" data-execution_count="1">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  subplot_kw <span class="op">=</span> {<span class="st">'projection'</span>: <span class="st">'polar'</span>} </span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>ax.plot(theta, r)</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>ax.grid(<span class="va">True</span>)</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display">
-<div id="fig-polar" class="quarto-figure quarto-figure-center anchored" height="439" width="450">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="hello_files/figure-html/fig-polar-output-1.png" width="450" height="439" class="figure-img">
-</div>
-<figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: A line plot on a polar axis
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
+<section id="peer-reviewed" class="level2">
+<h2 class="anchored" data-anchor-id="peer-reviewed">Peer reviewed</h2>
+<p>C. Liu et al., “Appraisal of cycling infrastructure investments using a transport model with focus on cycling,” Case Studies on Transport Policy, vol.&nbsp;9, no. 1, s. 125-136, 2021.</p>
+<p>C. Liu et al., “Development of a large-scale transport model with focus on cycling,” Transportation Research Part A : Policy and Practice, vol.&nbsp;134, s. 164-183, 2020.</p>
+<p>M. Adolphson och D. Jonsson, “Uncover the theory practice gap in Swedish transport planning : an interdisciplinary approach,” European Planning Studies, 2020.</p>
+<p>O. Blom Västberg, A. Karlström, R.D. Jonsson, M. Sundberg., “A dynamic discrete choice activity-based travel demand model,” Transportation Science vol 54, issue 1, 2019.</p>
+<p>M. Börjesson, R. D. Jonsson and M. Lundberg, “An ex-post CBA for the Stockholm Metro,” Transportation Research Part A : Policy and Practice, vol.&nbsp;70, pp.&nbsp;135-148, 2014.</p>
+<p>M. Börjesson et al., “Land-use impacts in transport appraisal,” Research in Transportation Economics, vol.&nbsp;47, pp.&nbsp;82-91, 2014.</p>
+<p>R. D. Jonsson et al., “Reconciling user benefit and time-geography-based individual accessibility measures,” Environment and Planning, B : Planning and Design, vol.&nbsp;41, no. 6, pp.&nbsp;1031-1043, 2014.</p>
+<p>U. Mörtberg et al., “Urban ecosystems and sustainable urban development-analysing and assessing interacting systems in the Stockholm region,” Urban Ecosystems, vol.&nbsp;16, no. 4, pp.&nbsp;763-782, 2013.</p>
+<p>M. Börjesson, R.D. Jonsson and M. Lundberg, “Samhällsekonomin på spåret – en ESO-rapport om att räkna på tunnelbanan,” Expertgruppen för studier i offentlig ekonomi, 2012:5, 2012.</p>
+<p>R. D. Jonsson et al., “The Usefulness of Transport Models in Swedish Planning Practice,” Transport reviews, vol.&nbsp;31, no. 2, pp.&nbsp;251-265, 2011.</p>
+<p>R. D. Jonsson, “Analysing sustainability in a land-use and transport system,” Journal of Transport Geography, vol.&nbsp;16, no. 1, pp.&nbsp;28-41, 2008.</p>
+<p>M. Robèrt and R. D. Jonsson, “Assessment of transport policies toward future emission targets : A backcasting approach for Stockholm 2030,” Journal of Environmental Assessment Policy and Management, vol.&nbsp;8, no. 4, pp.&nbsp;451-478, 2006.  </p>
+</section>
+<section id="other-publications" class="level2">
+<h2 class="anchored" data-anchor-id="other-publications">Other publications</h2>
+<p>O. Fröidh et al., “Lokalisering av järnvägsstationer – effekter för samhällsplanering, resande och tillgänglighet,” Kungliga Tekniska högskolan, TRITA-ABE-RPT, 1815, 2018.</p>
+<p>M. Adolphson, D. Jonsson and J. Westin, “Regionala Systemanalyser,” Stockholm : KTH Royal Institute of Technology, 2017</p>
+<p>A. Almroth et al., “Further development of SAMPERS and modeling of urban congestion,” Working papers in Transport Economics, No 2014:10, 2014.</p>
+<p>Blom Västberg, O., A. Karlström, M. Sundberg and R.D. Jonsson, “Within and Between Days Activity Scheduling by Infinite Trip Chaining”, Transport Research Board, Washington, USA, Transport Research Board, 2014</p>
+<p>R. D. Jonsson 2008. “Analysing Sustainable Urban Transport and Land-Use : Modelling Tools and Appraisal Frameworks.” PhD Thesis, KTH, Transport and Location Analysis.</p>
+<p>R. D. Jonsson, and O. Kollberg, “Attitude Control of a Nanosatellite Using Reinforcement Learning Neural Networks.” Master’s Thesis, Uppsala University. 1999</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

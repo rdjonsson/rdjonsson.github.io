@@ -1,3 +1,28 @@
 ---
-title: "R. Daniel Jonsson"  
+title: "R. Daniel Jonsson"
+toc: false
+about:
+    template: trestles
+    image: gadden2017.jpg
+    links:
+        - icon: envelope-at
+          text: Email
+          href: mailto:danjo@kth.se
+        - icon: github
+          text: GitHub
+          href: https://github.com/rdjonsson
 ---
+
+Various writings on transport systems analysis and loosely related topics.
+
+
+
+## Current activity
+I am a research scientist at the division of Systems Analysis and Economics, department of Urban Planning and Environment, KTH Royal Institute of Technology, Stockholm.
+
+Since 2018 – KTH Partner director for the Strategic Partnership between KTH and Region Stockholm regarding transport and regional planning.
+
+Since 2022 – KTH Partner contact EIT Urban Mobility, an initiative of the European Institute of Innovation and Technology (EIT).
+
+If there was such a field as Complexity Regional Science I would probably be working in it. 
+

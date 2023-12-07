@@ -1,0 +1,88 @@
+---
+title: "Curriculum Vitae"
+toc: true
+format:
+  html:
+    code-fold: true
+---
+
+# R. Daniel Jonsson
+
+## Employment
+-----------------   --------------------------------------------------------------
+2009 -- present     Researcher, School of Architecture and the Built Environment, 
+                    KTH Royal Institute of Technology, Stockholm.
+
+2016-09 -- 2017-07  Parental leave
+
+2018-11 -- 2019-04  Parental leave
+----------------------------------------------------------------------------------
+
+## Degrees
+----  ------------------------------------------------------------------------------------------
+2001  M.Sc. Engineering Physics, specialised in Scientific Computing, Uppsala University.
+
+2004  Licentiate of Engineering, Infrastructure, KTH Royal Institute of Technology, Stockholm
+
+2009  Ph.D. in Infrastructure, KTH Royal Institute of Technology, Stockholm.
+------------------------------------------------------------------------------------------------
+
+## Teaching experience
+-----------       -----------------------------------------------------------------------------------------------------------
+2001--2005 	      Optimisation Models in Transport and Location Analysis, Dept. of Transport and Economics, KTH, Stockholm
+
+2002--2007	      Traffic Forecasting, Dept. of Transport and Economics, KTH
+
+2007--2009	      Transport Modelling, Dept. of Transport and Economics, KTH
+
+2007--2008	      Advanced Transport Modelling, Dept. of Transport and Economics, KTH
+
+2008-2009	      Transport and Society, Dept. of Transport and Economics, KTH
+
+2008	          Transport Policy and Evaluation, Dept. of Transport and Economics, KTH
+
+2009--2014	      GIS in transport analysis, Dept. of Transport and Economics, KTH
+
+2013--2015	      Urban Modelling and Decision Support, KTH
+
+2016--	          Stads- och trafikplanering, KTH
+
+2016--	          Transporter och Samhälle, KTH
+-------------------------------------------------------------------------------------------------------------------------
+
+## Selected projects
+--------------    -------------------------------------------------------------------------------------------------------------------
+2000--2003 	      PROSPECTS: Procedures for Recommending Optimal Sustainable Planning of European City Transport Systems, 
+                  EU 5th framework project in cooperation with: 
+                  Institute of Transport Studies, Leeds; Institute for Transport Economics, Oslo; 
+                  Institute for Traffic Planning & Traffic Engineering, Vienna; 
+                  VTT Building and Transport, Helsinki; Universidad Politechnica de Madrid.
+
+2004--2005	      Development of activity based models for the Stockholm Region. Vinnova.
+
+2004--2008	      Modelling and analysis of a sustainable land use and transport system. Vinnova, Vägverket.
+
+2007--2010 	      Assessment of long term effects of economic policy instruments on the transport system. Vinnova, Vägverket.
+
+2009--2011	      Efficient transport models. In cooperation with WSP. Vägverket.
+
+2010	          Modelling congesting charging in Stockholm. Vinnova.
+
+2010--2012	      Förutsättningarnas betydelse för den relativa samhällsekonomiska lönsamheten av investeringar. Vinnova.
+
+2010--2012	      The long-term social benefits of public transport. Vinnova.
+
+2011--2016	      Post Car(d) Urbanism - Scenarios and visualizations of transformed urban landscapes. Formas.
+
+2012--2014	      Energieffektivisering, transportpolitik och regionförstoring. Energimyndigheten.
+
+2012--2016	      Regionala systemanalyser. Trafikverket.
+
+2014--2016	      Estimation and development of a new national transport model system for Sweden. Trafikverket
+
+2014--2016	      Systems effects of autonomous vehicles. Energimyndigheten
+
+2017--2020 	      MISTRA SAMS
+
+2022--2023 	      Scenario planning with synthetic populations. Region Stockholm.
+--------------------------------------------------------------------------------------------------------------------------------------
